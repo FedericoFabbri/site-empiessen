@@ -1,0 +1,147 @@
+@import "galeria";
+
+@import "../bootstrap/scss/bootstrap";
+
+/*ESTILOS GLOBALES*/
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*ESTILOS HOME*/
+body,
+button{
+    font-family:"Lora", serif;
+}
+header{
+    width: 90%;
+    height: 20vh ;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.nav-links{
+    list-style: none;
+    color: cornflowerblue;
+    font-size: 20px;
+    text-decoration: none;
+    display:flex ;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    position:relative;
+     
+}
+/*probando background-color sacar dsp*/
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    margin:auto
+            }
+
+
+.intro-text{
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+align-items: center;
+justify-content:space-around;
+color: cornflowerblue;
+            }
+
+.sobre-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: darkgoldenrod;
+    font-size: 45px;
+    list-style: none;
+    text-decoration: none;
+    background: linear-gradient(90deg, #b24592, #f15f79);
+    background-clip: text;
+   -webkit-text-fill-color: burlywood;
+    
+
+                }
+.img{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 10px 0px 0px 10px;
+
+
+
+
+     }
+
+
+#redes{
+    margin: 10 10 10 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: darkgoldenrod;
+    font-size: 45px;
+    list-style: none;
+    text-decoration: none;
+   
+   
+
+        }
+.logos{
+    margin: 10 10 10 10;
+    list-style: none;
+    text-decoration: none;
+    display:flex ;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    position:relative;
+      }
+
+.año {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    margin: 20px;
+    color:coral
+    } 
+
+/*ESTILOS RECETARIO*/
+.grid {
+    display: grid;  
+        grid-template-columns: 2fr 1fr; 
+        grid-template-rows: 3fr 1fr; 
+    }
+    
+ /*bootstrap*/
+
+.redsocial {
+        border: 1px #f00;
+        background-color: #fdd;
+}
+.redsocial--nueva {
+        @extend .redsocial;
+        border-width: 3px;
+}
+.redsocial, .redsocial--nueva {
+  border: 1px #f00;
+  background-color: #fdd;
+}
+.redsocial--nueva {
+  border-width: 3px;
+}
+.box {
+      height: 50px;
+      width: 500px;
+}

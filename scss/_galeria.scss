@@ -1,0 +1,23 @@
+.carousel-item {
+  background-image: url(../img/cuadrada.jpg.jpeg);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+}
+.carousel__item--background2 {
+  background-image: url(../img/aqua.jpg);
+}
+.carousel__item--background3 {
+  background-image: url(../img/lineaclasica.jpg);
+}
+
+$carousel-control-color: red;
+
+$carousel-caption-width: 50%;
+$carousel-caption-color: #ddd;
+
+$primary: green;
+$btn-border-radius: 1rem;
+
+$carousel-control-next-icon-bg: url("../img/right-arrow.svg");
